@@ -1,11 +1,11 @@
 # Site settings
 author: Doug Fitzgerald
-title: 
+title: Doug Fitzgerald Blog
 header-img: img/home-bg.png
 email: dfitzge1@conncoll.edu
 copyright_name: Doug Fitzgerald
 description: > # this means to ignore newlines until "baseurl:"
-  
+  "Think twice, code once"
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  dfitzgerald7
