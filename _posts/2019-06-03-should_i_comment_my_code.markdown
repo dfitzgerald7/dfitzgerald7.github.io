@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Should I comment my code?"
-date:       2019-06-03 18:20:14 +0000
+date:       2019-06-03 14:20:15 -0400
 permalink:  should_i_comment_my_code
 ---
 
