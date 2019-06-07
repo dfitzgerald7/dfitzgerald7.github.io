@@ -83,4 +83,34 @@ Now since the start and end points are set up we can just iterate from index 1 t
 ```
 [3, 3, 3, 10, 10, 8, 8, 8, 1, 0]
 ```
-Instead of having having a potential n^2 runtime it is now 3n, or O(n). 
+Instead of having having a potential n^2 runtime it is now 3n, or O(n). My final code was this: 
+
+```
+function arrayManipulation(n, queries) {
+    const arr = [] //make array of 0s
+    for (let i = 0; i < n; i++){
+        arr.push(0)
+    }
+    //add value at start index, subtract at index after end
+    queries.forEach(([start, end, value]) => {
+        arr[start-1] += value
+        arr[end] -= value
+    })
+    //add previous value so the queries permiate through arr 
+    //since the end index subtracted that value previously,
+        //the rest of the array is not affected by the wrong query
+    for (let j = 1; j < n; j++){
+        arr[j] += arr[j-1]
+    }
+    //find max
+    let max = arr[0]
+    for (let k = 1; k < n; k++){
+        if (arr[k] > max) {
+            max = arr[k]
+        }
+    }
+
+    return max
+
+}
+```
