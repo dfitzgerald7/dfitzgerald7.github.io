@@ -6,7 +6,7 @@ permalink:  clever_coding_challenge_algorithm
 ---
 
 
-* For the past several days I've been doing coding challenges on [Hacker Rank](https://www.hackerrank.com/dashboard) as interview prep. I came across  [this challenge](https://www.hackerrank.com/challenges/crush/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays). 
+For the past several days I've been doing coding challenges on [Hacker Rank](https://www.hackerrank.com/dashboard) as interview prep. I came across  [this challenge](https://www.hackerrank.com/challenges/crush/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays). 
 
 They explain the challenge as: 
 
