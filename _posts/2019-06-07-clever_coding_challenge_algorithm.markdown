@@ -30,7 +30,7 @@ The largest value is  after all operations are performed.`
 ```
 
 Basically, you gave an array of 0s and have to add numbers between certain indices. Once I understood the problem, I was initially surprised by it being in the hard category. You are given an array of arrays that contain a starting index, end index, and value to add to those indices. For each of those queries, I could have a for loop that goes from start to end and add that value. Simple enough, right?
-
+```
 function arrayManipulation(n, queries) {
     const arr = []
     for (let i = 0; i < n; i++){
