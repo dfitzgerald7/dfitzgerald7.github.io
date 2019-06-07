@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Clever Coding Challenge Algorithm"
-date:       2019-06-07 18:06:31 +0000
+date:       2019-06-07 14:06:31 -0400
 permalink:  clever_coding_challenge_algorithm
 ---
 
@@ -10,6 +10,7 @@ permalink:  clever_coding_challenge_algorithm
 
 They explain the challenge as: 
 
+```
 `Starting with a 1-indexed array of zeros and a list of operations, for each operation add a value to each of the array element between two given indices, inclusive. Once all operations have been performed, return the maximum value in your array.
 
 For example, the length of your array of zeros . Your list of queries is as follows:
@@ -26,10 +27,10 @@ index->	 1 2 3  4  5 6 7 8 9 10
 	[3,3,3,10,10,7,7,7,0, 0]
 	[3,3,3,10,10,8,8,8,1, 0]
 The largest value is  after all operations are performed.`
+```
 
 Basically, you gave an array of 0s and have to add numbers between certain indices. Once I understood the problem, I was initially surprised by it being in the hard category. You are given an array of arrays that contain a starting index, end index, and value to add to those indices. For each of those queries, I could have a for loop that goes from start to end and add that value. Simple enough, right?
 
-```
 function arrayManipulation(n, queries) {
     const arr = []
     for (let i = 0; i < n; i++){
