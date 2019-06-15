@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Tree Implementation in JavaScript"
-date:       2019-06-15 17:45:01 +0000
+date:       2019-06-15 13:45:02 -0400
 permalink:  tree_implementation_in_javascript
 ---
 
