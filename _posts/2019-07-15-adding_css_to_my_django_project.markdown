@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Adding CSS to my Django Project"
-date:       2019-07-15 17:05:39 +0000
+date:       2019-07-15 13:05:40 -0400
 permalink:  adding_css_to_my_django_project
 ---
 
