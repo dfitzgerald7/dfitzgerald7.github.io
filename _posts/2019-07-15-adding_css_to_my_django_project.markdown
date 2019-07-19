@@ -21,12 +21,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 ```
-After that the static path is set up, all you need to do is actually load it in your HTML. 
-```
-    {% load static %}
-    <script type="text/javascript" src="{% static 'main/todo_script.js' %}"></script>
-    <link rel="stylesheet" href="{% static 'main/style.css' %}">
-```
+After that the static path is set up, all you need to do is actually load it in your HTML.
 I added this in my main HTML file. This both loads my JS and CSS to every HTML page. Now that this is set up, I can simply add my css.
 ```
 #notLoggedIn {
