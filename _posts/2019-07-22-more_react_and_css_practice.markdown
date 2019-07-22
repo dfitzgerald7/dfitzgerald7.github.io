@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "More React and CSS Practice"
-date:       2019-07-22 19:15:34 +0000
+date:       2019-07-22 15:15:35 -0400
 permalink:  more_react_and_css_practice
 ---
 
